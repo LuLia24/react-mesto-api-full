@@ -1,7 +1,9 @@
 const allowedCors = [
   'domainname.peshky15.nomoredomains.sbs',
-  'api.peshky15.nomoredomains.sbs',
+  'https://domainname.peshky15.nomoredomains.sbs',
+  'http://domainname.peshky15.nomoredomains.sbs',
   'localhost:3000',
+  'http://localhost:3000',
 ];
 
 module.exports = (req, res, next) => {
